@@ -45,6 +45,6 @@ COPY conf/htpasswd /etc/nginx/.htpasswd
 
 ADD conf/supervisord.conf /etc/supervisor/conf.d/
 
-EXPOSE 80 443 9200
+EXPOSE 80 443 9201
 
 CMD ["/usr/bin/supervisord"]
