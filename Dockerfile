@@ -40,9 +40,6 @@ RUN cd /opt \
   && rm /etc/nginx/sites-enabled/default \
   && ln -s /etc/nginx/sites-available/kibana.conf /etc/nginx/sites-enabled/kibana.conf
 
-# Add admin/admin web user account
-COPY conf/htpasswd /etc/nginx/.htpasswd
-
 ADD conf/supervisord.conf /etc/supervisor/conf.d/
 
 EXPOSE 80 443 9201
