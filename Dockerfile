@@ -1,6 +1,6 @@
 FROM java:8-jre
 
-MAINTAINER blacktop, https://github.com/blacktop
+MAINTAINER dvitonis, https://github.com/dvitonis
 
 ENV KIBANA_VERSION 4.1.1-linux-x64
 
