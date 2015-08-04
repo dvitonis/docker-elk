@@ -2,8 +2,5 @@ elk-logo.png
 LICENSE
 README.md
 SIGNED.md
-logstash/*
-screens/*
 conf/test_index.py
-docker-compose.yml
 .DS_Store
