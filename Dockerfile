@@ -42,6 +42,7 @@ RUN cd /opt \
 
 ADD conf/supervisord.conf /etc/supervisor/conf.d/
 
+VOLUME ["/usr/share/elasticsearch/data"]
 VOLUME ["/etc/logstash/conf.d"]
 VOLUME ["/etc/nginx"]
 
