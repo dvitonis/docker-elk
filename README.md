@@ -1,4 +1,4 @@
-![elk-logo](https://raw.githubusercontent.com/blacktop/docker-elk/master/elk-logo.png)
+![elk-logo](https://raw.githubusercontent.com/dvitonis/docker-elk/master/elk-logo.png)
 Password Protected ELK Stack Dockerfile
 ===================
 
